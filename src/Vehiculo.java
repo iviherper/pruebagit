@@ -1,9 +1,10 @@
 
 public class Vehiculo {
-	public static void arrancar() {
+
+	public Vehiculo () {
 		System.out.println("Brrrrr...acaba de arrancar!");
 	}
 	public static void main(String[] args) {
-		arrancar();
+		Vehiculo miMoto = new Vehiculo();
 	}
 }
